@@ -86,7 +86,7 @@ header {
     backdrop-filter: blur(9px); */
 }
 
-.intro {
+.intro, .content {
     padding: 3ch;
     scroll-snap-align: start;
     width: 100%;
