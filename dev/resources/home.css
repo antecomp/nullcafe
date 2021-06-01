@@ -1,0 +1,12 @@
+div#findus {
+    display: grid;
+    padding: 1ch;
+    border: double 4px;
+    margin-top: 1ch;
+    max-width: 100ch;
+    grid-template-columns: min-content auto;
+}
+
+#findus iframe {
+    padding: 1ch;
+}
