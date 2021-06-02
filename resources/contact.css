@@ -1,0 +1,11 @@
+.contactcard {
+    padding: 5ch;
+    border: double 4px;
+    position: relative;
+}
+
+.contactcard h3 {
+    position: absolute;
+    top: 1ch;
+    left: 1ch;
+}
