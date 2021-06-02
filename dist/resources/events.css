@@ -3,6 +3,7 @@
     display: grid;
     flex-basis: 2;
     grid-template-columns: 1fr 1fr;
+    max-width: 120ch;
 }
 
 #events .event img {
