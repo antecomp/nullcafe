@@ -1,0 +1,38 @@
+const homeSet = (element, title) => {
+    title.textContent = "Welcome To The Null Cafe"
+    element.innerHTML = `
+			<h1>About Us</h1>
+			<p>We are a group of cybernetically enhanced bartenders ready to provide the most
+				unique and memorable experience you can think of. Our story begins in 2089 following
+				the Second Great Depression, we strived to create a sanctuary for all to escape the montony of life.
+				We hope to see you soon!
+			</p>
+			<h1>What we offer</h1>
+			<p>Our fine establishment has a 3 meter long bar staffed by 2 of our finest cyborg bartenders. 
+				However, we also offer several private rooms for our finest patrons. On weekends, we have a live 
+				performance by the local DJ's, and a late night rave for those who can stand crowds.
+			</p>
+			<h1>Lorem</h1>
+			<p>
+				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis itaque a at quia nesciunt, necessitatibus labore veniam nihil qui sunt beatae neque quibusdam ipsa reprehenderit quae, eligendi iusto provident voluptatibus?
+			</p>
+			<h1>What are you waiting for?</h1>
+			<div id="findus">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243.60448274312418!2d139.77190313482868!3d35.669945687534636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188be00bb03549%3A0x7a5e1ef1474858ce!2sByakudan!5e0!3m2!1sen!2sus!4v1622576715663!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				<p>
+					<b>Come join us and make some memories!</b>
+					<br>
+					<br>
+					<i class="fas fa-map-marker-alt"></i> <br>
+					1 Chome-5-4 Tsukiji, Chuo City, Tokyo 104-0045, Japan
+					<br>
+					<br>
+					<i class="far fa-clock"></i> <br>
+					Mon-Fri: 8am-4am <br>
+					Open all day Sun/Sat
+				</p>
+			</div>
+    `
+}
+
+export { homeSet }
