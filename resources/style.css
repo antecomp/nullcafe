@@ -18,6 +18,7 @@
     --bgc: black;
     --textc: rgb(184, 59, 184);
     --empc: purple;
+    --hic: rgb(124, 70, 124);
 }
 
 body {
@@ -25,7 +26,30 @@ body {
     color: var(--textc);
     font-family: main;
     scroll-snap-type: y mandatory;
+    /* for firefox */
+    scrollbar-width: thin;
+    scrollbar-color: purple black;
 }
+
+::-webkit-scrollbar {
+    width: 4px;
+    background-color: #111111;
+}
+
+::-webkit-scrollbar-thumb {
+    color: var(--empc);
+    background-color: var(--empc);
+}
+
+::selection {
+    background: var(--hic);
+    color: black;
+}
+
+  ::-moz-selection {
+    background: var(--hic);
+    color: white;
+ }
 
 nav {
     background: black;
